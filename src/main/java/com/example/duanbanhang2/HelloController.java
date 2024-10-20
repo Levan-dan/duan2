@@ -1,6 +1,4 @@
 package com.example.duanbanhang2;
-
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,12 +8,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-
-
 import java.io.IOException;
 import java.sql.*;
 
 public class HelloController {
+
 
     //    chức năng kết nối database
     private final String URL = "jdbc:mysql://localhost:3306/duanbanhang";
@@ -52,15 +49,5 @@ public class HelloController {
 
     }
 
-//    private void loadScene(ActionEvent event, String fxmlFile) {
-//        try {
-//            Parent root = FXMLLoader.load(getClass().getResource(fxmlFile));
-//            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//            Scene scene = new Scene(root);
-//            stage.setScene(scene);
-//            stage.show();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }
+
